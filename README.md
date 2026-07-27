@@ -45,4 +45,5 @@ Open your terminal inside the project directory and run the compilation command 
 
 * **Windows**
 ```bash
-  g++ main.cpp -o main -IC:\raylib\include -LC:\raylib\lib -lraylib -lopengl32 -lgdi32 -lwinmm
+  g++ main.cpp -Iraylib/include -Lraylib/lib -lraylib -lopengl32 -lgdi32 -lwinmm -o main.exe
+.\main.exe
